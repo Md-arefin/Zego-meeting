@@ -15,7 +15,7 @@ function App() {
 
 	return (
 		<div className='bg-slate-400 h-[80vh] px-5 py-72'>
-			{/* <form onSubmit={handleForm} className='text-center  rounded-md border-2 border-black py-10 w-3/4 mx-auto'>
+			<form onSubmit={handleForm} className='text-center  rounded-md border-2 border-black py-10 w-3/4 mx-auto'>
 				
 				<div className='mt-6'>
 					<label>
@@ -33,7 +33,7 @@ function App() {
 					Enter Room
 				</button>
 			</form>
-			 */}
+			
 		</div>
 	);
 }
