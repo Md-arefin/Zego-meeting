@@ -14,8 +14,10 @@ function App() {
 
 
 	return (
-		<div className='bg-slate-400 h-[80vh] px-5 py-72'>
+		<div className='bg-slate-400 h-[100vh] px-5 py-72'>
 			<form onSubmit={handleForm} className='text-center  rounded-md border-2 border-black py-10 w-3/4 mx-auto'>
+
+				<h1 className='text-center font-bold text-lg'>Welcome to our Mini Galaxy Meet</h1>
 				
 				<div className='mt-6'>
 					<label>
