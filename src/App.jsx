@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
-// import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
 function App() {
 
-	// const [roomCode, setRoomCode] = useState('');
-	// const navigate = useNavigate();
+	const [roomCode, setRoomCode] = useState('');
+	const navigate = useNavigate();
 
-	// const handleForm = (event) => {
-	// 	event.preventDefault();
-	// 	navigate(`/room/${roomCode}`);
-	// }
+	const handleForm = (event) => {
+		event.preventDefault();
+		navigate(`/room/${roomCode}`);
+	}
 
 
 	return (
